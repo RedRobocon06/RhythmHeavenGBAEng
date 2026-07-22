@@ -5,15 +5,15 @@
 /* Script Data - Staff Credits */
 
 
-const char D_08069a48[] = "\0023" "Staff Credits";
+const char D_08069a48[] = "Staff Credits";
 
-const char D_08069a58[] = "\0023" "Producers";
+const char D_08069a58[] = "Producers";
 
-const char D_08069a64[] = "TSUNKUâ";
+const char D_08069a64[] = "TSUNKUÅâ";
 
 const char D_08069a70[] = "Y. Sakamoto";
 
-const char D_08069a7c[] = "\0023" "Supervisors";
+const char D_08069a7c[] = "Supervisors";
 
 const char D_08069a88[] = "K. Yamano";
 
@@ -21,11 +21,11 @@ const char D_08069a94[] = "H. Iida";
 
 const char D_08069a9c[] = "N. Umemoto";
 
-const char D_08069aa8[] = "\0023" "Chief Director";
+const char D_08069aa8[] = "Chief Director";
 
 const char D_08069ab8[] = "K. Osawa";
 
-const char D_08069ac0[] = "\0023" "Game Design";
+const char D_08069ac0[] = "Game Design";
 
 const char D_08069acc[] = "K. Takeuchi";
 
@@ -41,25 +41,25 @@ const char D_08069b00[] = "Y. Takeuchi";
 
 const char D_08069b0c[] = "M. Kawano";
 
-const char D_08069b18[] = "\0023" "Program Director";
+const char D_08069b18[] = "Program Director";
 
-const char D_08069b2c[] = "\0023" "Programming";
+const char D_08069b2c[] = "Programming";
 
-const char D_08069b38[] = "\0023" "Design Director";
+const char D_08069b38[] = "Design Director";
 
-const char D_08069b48[] = "\0023" "Design";
+const char D_08069b48[] = "Design";
 
 const char D_08069b50[] = "F. Miyamoto";
 
-const char D_08069b5c[] = "\0023" "Sound Directors";
+const char D_08069b5c[] = "Sound Directors";
 
 const char D_08069b6c[] = "H. Oguro";
 
 const char D_08069b74[] = "K. Kamada";
 
-const char D_08069b80[] = "\0023" "Music";
+const char D_08069b80[] = "Music";
 
-const char D_08069b88[] = "\0023" "Music Arrangement";
+const char D_08069b88[] = "Music Arrangement";
 
 const char D_08069b9c[] = "K. Yuasa";
 
@@ -69,25 +69,25 @@ const char D_08069bb0[] = "K. Okubo";
 
 const char D_08069bb8[] = "D. Shiiba";
 
-const char D_08069bc4[] = "\0023" "Sound Effects";
+const char D_08069bc4[] = "Sound Effects";
 
 const char D_08069bd4[] = "T. Fujii";
 
-const char D_08069bdc[] = "\0023" "Singers";
+const char D_08069bdc[] = "Singers";
 
 const char D_08069be4[] = "Ami Tokito";
 
 const char D_08069bf0[] = "Soshi Tanaka";
 
-const char D_08069bfc[] = "\0023" "Voice";
+const char D_08069bfc[] = "Voice";
 
 const char D_08069c04[] = "N. Kitamura";
 
 const char D_08069c10[] = "M. Nomura";
 
-const char D_08069c1c[] = "\0023" "North American Localization";
+const char D_08069c1c[] = "North American Localization";
 
-const char D_08069c24[] = "\0023" "Localization Management";
+const char D_08069c24[] = "Localization Management";
 
 const char D_08069c30[] = "";
 
@@ -101,7 +101,7 @@ const char D_08069c5c[] = "B. Trinen";
 
 const char D_08069c68[] = "";
 
-const char D_08069c74[] = "\0023" "Localization";
+const char D_08069c74[] = "Localization";
 
 const char D_08069c80[] = "";
 
@@ -111,7 +111,7 @@ const char D_08069c98[] = "T. O'Leary";
 
 const char D_08069ca0[] = "";
 
-const char D_08069ca8[] = "\0023" "NOA Product Testing";
+const char D_08069ca8[] = "NOA Product Testing";
 
 const char D_08069cb4[] = "";
 
@@ -123,7 +123,7 @@ const char D_08069cd0[] = "S. Egan";
 
 const char D_08069ce0[] = "T. Lillygren";
 
-const char D_08069cec[] = "\0023" "Special Thanks";
+const char D_08069cec[] = "Special Thanks";
 
 const char D_08069cfc[] = "Y. Kuratsune";
 
@@ -147,9 +147,9 @@ const char D_08069d68[] = "H. Nakano";
 
 const char D_08069d74[] = "You";
 
-const char D_08069d7c[] = "\0023" "";
+const char D_08069d7c[] = "";
 
-const char D_08069d88[] = "\0023" "Executive Producers";
+const char D_08069d88[] = "Executive Producers";
 
 const char D_08069d98[] = "S. Iwata";
 
@@ -157,7 +157,7 @@ const char D_08069da0[] = "S. Terai";
 
 const char D_08069da8[] = "";
 
-const char D_08069dac[] = "© 2006-2007 Nintendo/J.P.ROOM";
+const char D_08069dac[] = "(C) 2006-2007 Nintendo/J.P.ROOM";
 
 const char D_08069dc8[] =
     "\n"    
