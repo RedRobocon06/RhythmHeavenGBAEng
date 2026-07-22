@@ -5,48 +5,48 @@
 /* Game Text - Sneaky Spirits */
 
 
-const char D_0805ba80[] = "きほんが　できてませんね。";
+const char D_0805ba80[] = "Your archery fundamentals needed work.";
 
 const char D_0805ba9c[] = "";
 
-const char D_0805baa0[] = "音が消えると　あせるみたい．．．";
+const char D_0805baa0[] = "The silent ghosts sneaked past you.";
 
-const char D_0805bac4[] = "音が消えても　おちついている！";
+const char D_0805bac4[] = "You hit them even when they were quiet.";
 
-const char D_0805bae4[] = "ちゃんと　カウント　しようね。";
+const char D_0805bae4[] = "You should have counted to yourself.";
 
-const char D_0805bb04[] = "体内カウント　バッチシだ！";
+const char D_0805bb04[] = "Your internal count was spot on!";
 
-const char D_0805bb20[] = "超ゆっくりでも　すばらしい！";
+const char D_0805bb20[] = "You did superbly against the slow ones.";
 
-const char D_0805bb40[] = "その　しろいヤツを、";
+const char D_0805bb40[] = "Ｓｔｏｐ　ｔｈｏｓｅ　ｇｈｏｓｔｓ！";
 
-const char D_0805bb58[] = "やっつけよう！";
+const char D_0805bb58[] = "Ｄｏｎ’ｔ　ｌｅｔ　ｔｈｅｍ　ｇｅｔ　ａｗａｙ！";
 
-const char D_0805bb68[] = "タイミングは…";
+const char D_0805bb68[] = "Ｙｏｕｒ　ｔｉｍｉｎｇ　ｈａｓ　ｔｏ　ｂｅ．．．";
 
-const char D_0805bb78[] = "　　　ココ！";
+const char D_0805bb78[] = "．．．ｐｅｒｆｅｃｔ！";
 
-const char D_0805bb88[] = "よく　みててネ！";
+const char D_0805bb88[] = "Ｗａｔｃｈ　ｃａｒｅｆｕｌｌｙ．";
 
-const char D_0805bb9c[] = "いくよ…";
+const char D_0805bb9c[] = "Ｒｉｇｈｔ．．．";
 
-const char D_0805bba8[] = "では　ほんばん　スタートです";
+const char D_0805bba8[] = "Ｄｏｎ’ｔ　ｌｅｔ　ａｎｙ　ｇｅｔ　ｐａｓｔ　ｙｏｕ！";
 
-const char D_0805bbc8[] = "雨のささやき";
+const char D_0805bbc8[] = "Spooky voices agree...";
 
-const char D_0805bbd8[] = "きほんが　できてませんね。";
+const char D_0805bbd8[] = "Your archery fundamentals needed work.";
 
 const char D_0805bbf4[] = "";
 
-const char D_0805bbf8[] = "音が消えると　あせるみたい．．．";
+const char D_0805bbf8[] = "The silent ghosts sneaked past you.";
 
-const char D_0805bc1c[] = "音が消えても　おちついている！";
+const char D_0805bc1c[] = "You hit them even when they were quiet.";
 
-const char D_0805bc3c[] = "ちゃんと　カウント　しようね。";
+const char D_0805bc3c[] = "Don't forget to count in your head.";
 
-const char D_0805bc5c[] = "体内カウント　バッチシだ！";
+const char D_0805bc5c[] = "Your internal count was spot on!";
 
-const char D_0805bc78[] = "超ゆっくりでも　すばらしい！";
+const char D_0805bc78[] = "You did superbly against the slow ones.";
 
-const char D_0805bc98[] = "雨のささやき";
+const char D_0805bc98[] = "Spooky voices agree...";

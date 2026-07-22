@@ -5,74 +5,74 @@
 /* Game Text - Mechanical Horse */
 
 
-const char D_0805c3d4[] = "レッスン１が　イマイチ。";
+const char D_0805c3d4[] = "Try lesson 1 again.";
 
-const char D_0805c3f0[] = "レッスン１は　バッチリ！";
+const char D_0805c3f0[] = "Lesson 1 was perfect!";
 
-const char D_0805c40c[] = "レッスン２が　イマイチ。";
+const char D_0805c40c[] = "Try lesson 2 again.";
 
-const char D_0805c428[] = "レッスン２は　バッチリ！";
+const char D_0805c428[] = "Lesson 2 was perfect!";
 
-const char D_0805c444[] = "レッスン３が　イマイチ。";
+const char D_0805c444[] = "Try lesson 3 again.．";
 
-const char D_0805c460[] = "レッスン３は　バッチリ！";
+const char D_0805c460[] = "Lesson 3 was perfect!";
 
-const char D_0805c47c[] = "レッスン４が　イマイチ。";
+const char D_0805c47c[] = "Try lesson 4 again.";
 
-const char D_0805c498[] = "レッスン４は　バッチリ！";
+const char D_0805c498[] = "Lesson 4 was perfect!";
 
-const char D_0805c4b4[] = "あしおとに　あわせて";
+const char D_0805c4b4[] = "Ｍｏｖｅ　ａｌｏｎｇ　ｗｉｔｈ　ｔｈｅ　ｆｏｏｔｓｔｅｐｓ．";
 
-const char D_0805c4cc[] = "すきなボタンを　おしてね。";
+const char D_0805c4cc[] = "Ｕｓｅ　ａｎｙ　ｂｕｔｔｏｎ　ｙｏｕ　ｗａｎｔ．";
 
-const char D_0805c4e8[] = "レッスン１　「ナミアシ」";
+const char D_0805c4e8[] = "Ｌｅｓｓｏｎ　１：　Ｗａｌｋｉｎｇ";
 
 const char D_0805c504[] = "";
 
-const char D_0805c508[] = "ＯＫ！　つぎいきます。";
+const char D_0805c508[] = "ＯＫ！　Ｎｅｘｔ　ｌｅｓｓｏｎ！";
 
-const char D_0805c520[] = "レッスン２　「ハヤアシ」";
+const char D_0805c520[] = "Ｌｅｓｓｏｎ　２：　Ｔｒｏｔｔｉｎｇ";
 
-const char D_0805c53c[] = "レッスン３　「カケアシ」";
+const char D_0805c53c[] = "Ｌｅｓｓｏｎ　３：　Ｃａｎｔｅｒｉｎｇ";
 
-const char D_0805c558[] = "ＯＫ！　さいごです。";
+const char D_0805c558[] = "ＯＫ！　Ｆｉｎａｌ　ｌｅｓｓｏｎ！";
 
-const char D_0805c570[] = "レッスン４　「シュウホ」";
+const char D_0805c570[] = "Ｌｅｓｓｏｎ　４：　Ｇａｌｌｏｐｉｎｇ";
 
-const char D_0805c58c[] = "ＯＫ！　おつかれさま！";
+const char D_0805c58c[] = "ＯＫ，　ｎｉｃｅ　ｗｏｒｋ！";
 
-const char D_0805c5a4[] = "レッスン１が　イマイチ。";
+const char D_0805c5a4[] = "Ｔｒｙ　Ｌｅｓｓｏｎ　１　ａｇａｉｎ．";
 
-const char D_0805c5c0[] = "レッスン１は　バッチリ！";
+const char D_0805c5c0[] = "Ｌｅｓｓｏｎ　１　ｃｏｍｐｌｅｔｅ！";
 
-const char D_0805c5dc[] = "レッスン２が　イマイチ。";
+const char D_0805c5dc[] = "Ｔｒｙ　Ｌｅｓｓｏｎ　２　ａｇａｉｎ．";
 
-const char D_0805c5f8[] = "レッスン２は　バッチリ！";
+const char D_0805c5f8[] = "Ｌｅｓｓｏｎ　２　ｃｏｍｐｌｅｔｅ！";
 
-const char D_0805c614[] = "レッスン３が　イマイチ。";
+const char D_0805c614[] = "Ｔｒｙ　Ｌｅｓｓｏｎ　３　ａｇａｉｎ．";
 
-const char D_0805c630[] = "レッスン３は　バッチリ！";
+const char D_0805c630[] = "Ｌｅｓｓｏｎ　３　ｃｏｍｐｌｅｔｅ！";
 
-const char D_0805c64c[] = "レッスン４が　イマイチ。";
+const char D_0805c64c[] = "Ｔｒｙ　Ｌｅｓｓｏｎ　４　ａｇａｉｎ．";
 
-const char D_0805c668[] = "レッスン４は　バッチリ！";
+const char D_0805c668[] = "Ｌｅｓｓｏｎ　４　ｃｏｍｐｌｅｔｅ！";
 
-const char D_0805c684[] = "あしおとに　あわせて";
+const char D_0805c684[] = "Ｍｏｖｅ　ａｌｏｎｇ　ｗｉｔｈ　ｔｈｅ　ｆｏｏｔｓｔｅｐｓ．";
 
-const char D_0805c69c[] = "すきなボタンを　おしてね。";
+const char D_0805c69c[] = "Ｕｓｅ　ａｎｙ　ｂｕｔｔｏｎ　ｙｏｕ　ｗａｎｔ．";
 
-const char D_0805c6b8[] = "レッスン１　「ナミアシ」";
+const char D_0805c6b8[] = "Ｌｅｓｓｏｎ　１：　Ｗａｌｋｉｎｇ";
 
 const char D_0805c6d4[] = "";
 
-const char D_0805c6d8[] = "ＯＫ！　つぎいきます。";
+const char D_0805c6d8[] = "ＯＫ！　Ｎｅｘｔ　ｌｅｓｓｏｎ！";
 
-const char D_0805c6f0[] = "レッスン２　「ハヤアシ」";
+const char D_0805c6f0[] = "Ｌｅｓｓｏｎ　２：　Ｔｒｏｔｔｉｎｇ";
 
-const char D_0805c70c[] = "レッスン３　「カケアシ」";
+const char D_0805c70c[] = "Ｌｅｓｓｏｎ　３：　Ｃａｎｔｅｒｉｎｇ";
 
-const char D_0805c728[] = "ＯＫ！　さいごです。";
+const char D_0805c728[] = "ＯＫ！　Ｆｉｎａｌ　ｌｅｓｓｏｎ！";
 
-const char D_0805c740[] = "レッスン４　「シュウホ」";
+const char D_0805c740[] = "Ｌｅｓｓｏｎ　４：　Ｇａｌｌｏｐｉｎｇ";
 
-const char D_0805c75c[] = "ＯＫ！　おつかれさま！";
+const char D_0805c75c[] = "ＯＫ！　Ｌｏｏｋｓ　ｌｉｋｅ　ｙｏｕ’ｒｅ　ｒｅａｄｙ！";
