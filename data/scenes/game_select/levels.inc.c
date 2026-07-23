@@ -355,8 +355,8 @@ struct LevelData level_data_table[] = {
         /* Entry Scene   */ &scene_marching_orders,
         /* Level Name    */ "Marching Orders",
         /* Level Desc.   */ "Ready, march! Following\n"
-                            "orders as a unit builds\n"
-                            "a sense of camaraderie.\n"
+                            "unit orders builds a\n"
+                            "sense of camaraderie.\n"
 							"Also, rhythm.",
         /* Level Icon    */ 21,
         /* Level Type    */ LEVEL_TYPE_GAME,
