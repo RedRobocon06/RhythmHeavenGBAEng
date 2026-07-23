@@ -282,9 +282,9 @@ void start_campaign_notice(s32 id) {
     notice->y = campaign_gifts_table[id].y;
     level = get_level_data_from_grid_xy(notice->x, notice->y);
     string = notice->text;
-    memcpy(string, "If you get a Perfect in\n", 11); // [Right now]
+    memcpy(string, "If you get a Perfect in\n", 45); // [Right now]
     strcat(string, level->name); // "<game_name>"
-    strcat(string, "right\n"); // Get a perfect on this
+    strcat(string, " right\n"); // Get a perfect on this
 	if (!isSpecialSong) {
         strcat(string, "now, you'll earn the song:\n"); // game, and you'll receive
     }
