@@ -25,6 +25,8 @@ stop
 
 define_gameplay_scene scene_karate_man_2, script_karate_man_2_entry
 
+
+
 .section .script.prologue
 @ Karate Man 2 - Prologue
 
@@ -65,6 +67,8 @@ script script_karate_man_2_prologue
     rest 18
     set_game_fade_in_time 16
 return
+
+
 
 .section .script.main
 @ Karate Man 2 - Marking Criteria
