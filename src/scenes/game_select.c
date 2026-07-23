@@ -288,12 +288,8 @@ void start_campaign_notice(s32 id) {
     if (giftType == CAMPAIGN_GIFT_DRUM_KIT || giftType == CAMPAIGN_GIFT_READING_MATERIAL) {
         strcat(string, "the following bonus:\n"); // received as a present!!
     }
-    if (isSong) {
-        if(isSpecialSong) {
-            strcat(string, "the following song:\n");
-        } else {
-            strcat(string, "the game's song, also titled\n");
-    }
+    if (isSpecialSong) {
+        strcat(string, "the following song:\n");
     }
     strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
     strcat(string, ".\n");
