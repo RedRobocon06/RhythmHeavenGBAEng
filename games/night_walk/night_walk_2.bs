@@ -28,7 +28,7 @@ define_gameplay_scene scene_night_walk_2, script_night_walk_2_entry
 
 
 .section .script.prologue
-@ Night Walk - Prologue
+@ Night Walk 2 - Prologue
 
 script script_night_walk_2_prologue
     set_game_fade_in_time 8

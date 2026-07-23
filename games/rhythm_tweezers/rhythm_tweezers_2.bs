@@ -28,7 +28,7 @@ define_gameplay_scene scene_rhythm_tweezers_2, script_rhythm_tweezers_2_entry
 
 
 .section .script.prologue
-@ Rhythm Tweezers - Prologue
+@ Rhythm Tweezers 2 - Prologue
 
 script script_rhythm_tweezers_2_prologue
     set_game_fade_in_time 8
