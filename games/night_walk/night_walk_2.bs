@@ -9,7 +9,7 @@
 script script_night_walk_2_entry
     set_tempo 124
     rest 24
-    call script_night_walk_prologue
+    call script_night_walk_2_prologue
     set_game_fade_in_time 16
     load_night_walk
     enable_play_inputs

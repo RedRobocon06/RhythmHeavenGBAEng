@@ -9,7 +9,7 @@
 script script_rhythm_tweezers_2_entry
     set_tempo 124
     rest 24
-    call script_rhythm_tweezers_prologue
+    call script_rhythm_tweezers_2_prologue
     set_game_fade_in_time 16
     load_rhythm_tweezers_2
     enable_play_inputs
