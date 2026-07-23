@@ -9,7 +9,7 @@
 script script_polyrhythm_2_entry
     set_tempo 124
     rest 24
-    call script_polyrhythm_prologue
+    call script_polyrhythm_2_prologue
     set_game_fade_in_time 16
     load_polyrhythm_2
     enable_play_inputs
