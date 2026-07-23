@@ -180,8 +180,8 @@ void init_campaign_notice(void) {
     notice->textAdvSprite = sprite_create(gSpriteHandler, anim_game_select_text_button, 0, 64, 64, 0x800, 1, 0, 0x8000);
     sprite_set_origin_x_y(gSpriteHandler, notice->textAdvSprite, &vector->x, &vector->y);
 
-    notice->printer = text_printer_create_new(get_current_mem_id(), 5, 120, 26);
-    text_printer_set_x_y(notice->printer, 104, 308);
+    notice->printer = text_printer_create_new(get_current_mem_id(), 4, 120, 26);
+    text_printer_set_x_y(notice->printer, 104, 320);
     text_printer_set_layer(notice->printer, 0x800);
     text_printer_set_colors(notice->printer, 0);
     text_printer_set_palette(notice->printer, 1);
@@ -207,7 +207,7 @@ void init_campaign_notice(void) {
         case CAMPAIGN_STATE_ACTIVE:
             if ((D_030046a8->data.campaignAttemptsLeft > 0)
              && (D_030046a8->data.unk26A < 3)
-             && (!get_campaign_cleared(&D_030046a8->data, D_030046a8->data.currentCampaign))) {
+             && (!D_030046a8->data.campaignsCleared[D_030046a8->data.currentCampaign])) {
                 notice->id = D_030046a8->data.currentCampaign;
                 notice->x = campaign_gifts_table[notice->id].x;
                 notice->y = campaign_gifts_table[notice->id].y;
@@ -252,7 +252,7 @@ const char *get_campaign_gift_title(s32 id, s32 shortenSongTitle) {
             return reading_material_table[giftID].title;
 
         case CAMPAIGN_GIFT_NEW_GAME:
-            return "New Game"; // New Game
+            return "新ゲーム"; // New Game
     }
 }
 
@@ -268,10 +268,11 @@ void start_campaign_notice(s32 id) {
     char *string;
 
     if (giftType == CAMPAIGN_GIFT_SONG) {
-        isSong = TRUE;
+        isStandardSong = TRUE;
         switch (giftID) {
-            case STUDIO_SONG_WISH:
             case STUDIO_SONG_HONEY_SWEET_ANGEL:
+            case STUDIO_SONG_WISH:
+                isStandardSong = FALSE;
                 isSpecialSong = TRUE;
                 break;
         }
@@ -281,21 +282,19 @@ void start_campaign_notice(s32 id) {
     notice->y = campaign_gifts_table[id].y;
     level = get_level_data_from_grid_xy(notice->x, notice->y);
     string = notice->text;
-    memcpy(string, "\001C" "If you get a Perfect on\n", 45); // [Right now]
+    memcpy(string, "ただいま「", 11); // [Right now]
     strcat(string, level->name); // "<game_name>"
-    strcat(string, "\nright now, you'll earn "); // Get a perfect on this
-    if (giftType == CAMPAIGN_GIFT_DRUM_KIT || giftType == CAMPAIGN_GIFT_READING_MATERIAL) {
-        strcat(string, "the following bonus:\n"); // received as a present!!
+    strcat(string, "」でパーフェクトを達成すると"); // Get a perfect on this
+    if (!isSpecialSong) {
+        strcat(string, "もれなく"); // game, and you'll receive
     }
-    if (isSong) {
-        if(isSpecialSong) {
-            strcat(string, "the following song:\n");
-        } else {
-            strcat(string, "the game's song, also titled\n");
-    }
-    }
+    strcat(string, "「"); // "
     strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
-    strcat(string, ".\n");
+    strcat(string, "」"); // "
+    if (isStandardSong) {
+        strcat(string, "の曲"); // 's song
+    }
+    strcat(string, "をプレゼント!!"); // received as a present!!
     text_printer_set_string(notice->printer, string);
 
     sprite_set_visible(gSpriteHandler, gGameSelect->selectionBorderSprite, FALSE);
