@@ -282,14 +282,14 @@ void start_campaign_notice(s32 id) {
     notice->y = campaign_gifts_table[id].y;
     level = get_level_data_from_grid_xy(notice->x, notice->y);
     string = notice->text;
-    memcpy(string, "\001C" "If you get a Perfect on\n", 45); // [Right now]
+    memcpy(string, "\001C" "If you get a Perfect in\n", 45); // [Right now]
     strcat(string, level->name); // "<game_name>"
-    strcat(string, "\nright now, you'll earn "); // Get a perfect on this
-    if (giftType == CAMPAIGN_GIFT_DRUM_KIT || giftType == CAMPAIGN_GIFT_READING_MATERIAL) {
-        strcat(string, "the following bonus:\n"); // received as a present!!
+    strcat(string, "\nright now, you'll earn\n"); // Get a perfect on this
+	if (!isSpecialSong) {
+        strcat(string, "the following song:\n"); // game, and you'll receive
     }
-    if (isSpecialSong) {
-        strcat(string, "the following song:\n");
+	if (giftType == CAMPAIGN_GIFT_DRUM_KIT || giftType == CAMPAIGN_GIFT_READING_MATERIAL) {
+        strcat(string, "the following bonus:\n"); // received as a present!!
     }
     strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
     strcat(string, ".\n");
