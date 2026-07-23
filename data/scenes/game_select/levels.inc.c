@@ -35,10 +35,10 @@ struct LevelData level_data_table[] = {
     /* CLAPPY_TRIO */ {
         /* Entry Scene   */ &scene_clappy_trio,
         /* Level Name    */ "The Clappy Trio",
-        /* Level Desc.   */ "The world-famous Clappy\n"
-                            "Trio never misses a beat.\n"
-                            "You're the third, so keep\n"
-							"an eye on the other two!",
+        /* Level Desc.   */ "This world-famous trio\n"
+                            "never misses a beat.\n"
+                            "You're the third, so\n"
+							"watch the other two!",
         /* Level Icon    */ 4,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_clappy_trio_gfx_tables,
@@ -243,9 +243,9 @@ struct LevelData level_data_table[] = {
         /* Entry Scene   */ &scene_sneaky_spirits,
         /* Level Name    */ "Sneaky Spirits",
         /* Level Desc.   */ "Ghosts are trying to\n"
-                            "escape their haunted house!\n"
-                            "Grab your bow, and don't\n"
-                            "let them get past you!",
+                            "escape their haunted\n"
+                            "house! Don't let them\n"
+                            "get past you!",
         /* Level Icon    */ 1,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_sneaky_spirits_gfx_tables,
@@ -258,8 +258,8 @@ struct LevelData level_data_table[] = {
     /* SNEAKY_SPIRITS_2 */ {
         /* Entry Scene   */ &scene_sneaky_spirits_2,
         /* Level Name    */ "Sneaky Spirits 2",
-        /* Level Desc.   */ "Ghosts are trying to\n"
-                            "escape again!\n"
+        /* Level Desc.   */ "Ghosts are trying\n"
+                            "to escape again!\n"
                             "Let them have it,\n"
                             "archery style!",
         /* Level Icon    */ 53,
