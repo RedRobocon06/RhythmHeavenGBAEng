@@ -57,7 +57,7 @@ const char D_0805c2d4[] = "Did you lose focus at the end?";
 
 const char D_0805c2e8[] = "";
 
-const char D_0805c2ec[] = "Monkey feedback:";
+const char D_0805c2ec[] = "Talent Scout Report";
 
 const char D_0805c300[] = "‚k‚…‚”f‚“@‚„‚‚‚ƒ‚…I";
 

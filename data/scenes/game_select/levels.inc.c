@@ -549,7 +549,7 @@ struct LevelData level_data_table[] = {
         /* Level Desc.   */ "You want a dancing\n"
                             "challenge? Try dancing\n"
                             "in zero gravity!\n"
-							"IN SPAAAAAAAAAAAAACE!",
+							"IN SPAAAAAAAAAACE!",
         /* Level Icon    */ 40,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_space_dance_gfx_tables,

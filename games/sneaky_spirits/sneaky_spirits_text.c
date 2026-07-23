@@ -5,7 +5,7 @@
 /* Game Text - Sneaky Spirits */
 
 
-const char D_0805ba80[] = "Your archery fundamentals needed work.";
+const char D_0805ba80[] = "You needed to focus on the basics.";
 
 const char D_0805ba9c[] = "";
 
@@ -33,9 +33,9 @@ const char D_0805bb9c[] = "Ｒｉｇｈｔ．．．";
 
 const char D_0805bba8[] = "Ｄｏｎ’ｔ　ｌｅｔ　ａｎｙ　ｇｅｔ　ｐａｓｔ　ｙｏｕ！";
 
-const char D_0805bbc8[] = "Spooky voices agree...";
+const char D_0805bbc8[] = "Spiritual Commentary";
 
-const char D_0805bbd8[] = "Your archery fundamentals needed work.";
+const char D_0805bbd8[] = "You needed to focus on the basics.";
 
 const char D_0805bbf4[] = "";
 
@@ -49,4 +49,4 @@ const char D_0805bc5c[] = "Your internal count was spot on!";
 
 const char D_0805bc78[] = "You did superbly against the slow ones.";
 
-const char D_0805bc98[] = "Spooky voices agree...";
+const char D_0805bc98[] = "Spiritual Commentary";
