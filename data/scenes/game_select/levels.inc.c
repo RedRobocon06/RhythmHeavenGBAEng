@@ -35,10 +35,10 @@ struct LevelData level_data_table[] = {
     /* CLAPPY_TRIO */ {
         /* Entry Scene   */ &scene_clappy_trio,
         /* Level Name    */ "The Clappy Trio",
-        /* Level Desc.   */ "Clap your hands in\n"
-                            "order! You are the third\n"
-                            "clapper. Keep your eyes\n"
-							"on the other two!",
+        /* Level Desc.   */ "The world-famous Clappy\n"
+                            "Trio never misses a beat.\n"
+                            "You're the third, so keep\n"
+							"an eye on the other two!",
         /* Level Icon    */ 4,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_clappy_trio_gfx_tables,
@@ -242,10 +242,10 @@ struct LevelData level_data_table[] = {
     /* SNEAKY_SPIRITS */ {
         /* Entry Scene   */ &scene_sneaky_spirits,
         /* Level Name    */ "Sneaky Spirits",
-        /* Level Desc.   */ "These spirits aren't evil,\n"
-                            "exactly, but they ARE\n"
-                            "kinda mean: they'll laugh\n"
-                            "at you if you miss.",
+        /* Level Desc.   */ "Ghosts are trying to\n"
+                            "escape their haunted house!\n"
+                            "Grab your bow, and don't\n"
+                            "let them get past you!",
         /* Level Icon    */ 1,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_sneaky_spirits_gfx_tables,
@@ -258,8 +258,8 @@ struct LevelData level_data_table[] = {
     /* SNEAKY_SPIRITS_2 */ {
         /* Entry Scene   */ &scene_sneaky_spirits_2,
         /* Level Name    */ "Sneaky Spirits 2",
-        /* Level Desc.   */ "Those spirits are\n"
-                            "acting up again!\n"
+        /* Level Desc.   */ "Ghosts are trying to\n"
+                            "escape again!\n"
                             "Let them have it,\n"
                             "archery style!",
         /* Level Icon    */ 53,
@@ -322,10 +322,10 @@ struct LevelData level_data_table[] = {
     /* TAP_TRIAL */ {
         /* Entry Scene   */ &scene_tap_trial,
         /* Level Name    */ "Tap Trial",
-        /* Level Desc.   */ "You are the girl.\n"
-                            "They are the monkeys.\n"
-                            "Follow them to tap\n"
-                            "stardom!",
+        /* Level Desc.   */ "Think you've got\n"
+                            "what it takes to\n"
+                            "tap-dance with\n"
+                            "the monkeys?",
         /* Level Icon    */ 6,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_tap_trial_gfx_tables,
