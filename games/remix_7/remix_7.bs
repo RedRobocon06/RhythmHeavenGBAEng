@@ -143,6 +143,42 @@ sb_stop
 
 @ Remix 7 - Main Script
 
+#ifdef SFX
+script script_remix_7_main
+    set_results_header D_0806a214
+    import_marking_criteria remix_7_marking_criteria
+    run gameplay_set_mercy_count, 2
+    start_tracking_inputs
+    set_marking_criteria 0
+    start_perfect_campaign
+    set_tempo 140
+    set_music_volume 200
+    rest 24
+    enable_pause_menu
+    rest 24
+    rest 24
+    rest 18
+    play_sfx s_guntai_v_zentai_a_seqData
+    rest 6
+    set_tempo 120
+    play_music Lesson1_seqData
+    marching_orders_event01
+    play_sfx s_guntai_v_zentai_ten_seqData
+    rest 9
+    play_sfx s_guntai_v_zentai_ttion_seqData
+    rest 15
+    rest 24
+    call marching_orders_sub_08a837ac
+    rest 24
+    set_tempo 120
+    play_music L1_pat03_seqData
+    call marching_orders_sub_08a8386c
+    call marching_orders_sub_08a8386c
+    call marching_orders_2_sub_08a83cc8
+    call marching_orders_2_sub_08a84088
+    call marching_orders_sub_08a83998
+    set_game_fade_in_time 0
+    #else
 script script_remix_7_main
     set_results_header D_0806a214
     import_marking_criteria remix_7_marking_criteria
@@ -168,6 +204,7 @@ script script_remix_7_main
     call marching_orders_2_sub_08a84088
     call marching_orders_sub_08a83998
     set_game_fade_in_time 0
+    #endif
 
     load_karate_man
     beat_anim
@@ -185,12 +222,12 @@ script script_remix_7_main
     load_space_dance
     rest 12
     rest 22
-    play_sfx s_space_ikeo_turn_seqData
+    play_sfx_localized s_space_ikeo_turn_seqData, s_space_ikeo_turn_en_seqData
     rest 2
     space_dance_event00 3
     spawn_cue CUE_TURN_RIGHT
     rest 22
-    play_sfx s_space_ikeo_right_seqData
+    play_sfx_localized s_space_ikeo_right_seqData, s_space_ikeo_right_en_seqData
     rest 2
     space_dance_event00 0
     rest 24
@@ -447,6 +484,24 @@ script script_remix_7_main
     rest 12
     rest 24
 
+    #ifdef SFX
+    load_marching_space_rabbits
+    beat_anim
+    rest 18
+    play_sfx s_guntai_v_zentai_a_seqData
+    rest 6
+    play_music L2_pat01_seqData
+    marching_orders_event01
+    play_sfx s_guntai_v_zentai_ten_seqData
+    rest 9
+    play_sfx s_guntai_v_zentai_ttion_seqData
+    rest 15
+    rest 24
+    call marching_orders_sub_08a837ac
+    rest 24
+    call marching_orders_sub_08a8386c_nobeat
+    call marching_orders_sub_08a83998
+    #else
     load_marching_space_rabbits
     beat_anim
     rest 24
@@ -454,6 +509,7 @@ script script_remix_7_main
     call marching_orders_sub_08a83848
     call marching_orders_sub_08a8386c
     call marching_orders_sub_08a83998
+    #endif
 
     load_tap_trial_remix
     beat_anim
@@ -562,13 +618,27 @@ script script_remix_7_main
     rest 24
     night_walk_set_platform 0
     spawn_cue CUE_KICK
-    rest 24
+    rest 15
+    #ifdef PLUS
+    play_sfx s_f_shock_seqData
+    #endif
+    rest 9
+    #ifdef PLUS
+    play_sfx s_f_shock_seqData
+    #endif
     spawn_cue CUE_CYMBAL
     rest 24
     spawn_cue CUE_KICK
     rest 24
     spawn_cue CUE_SNARE
-    rest 24
+    rest 15
+    #ifdef PLUS
+    play_sfx s_f_shock_seqData
+    #endif
+    rest 9
+    #ifdef PLUS
+    play_sfx s_f_shock_seqData
+    #endif
     spawn_cue CUE_KICK
     rest 24
     spawn_cue CUE_SNARE
@@ -780,13 +850,13 @@ script script_remix_7_main
     load_space_dance
     beat_anim
     rest 16
-    play_sfx s_space_ikeo_turn_seqData
+    play_sfx_localized s_space_ikeo_turn_seqData, s_space_ikeo_turn_en_seqData
     rest 2
     space_dance_event00 3
     spawn_cue CUE_TURN_RIGHT
     beat_anim
     rest 22
-    play_sfx s_space_ikeo_right_seqData
+    play_sfx_localized s_space_ikeo_right_seqData, s_space_ikeo_right_en_seqData
     rest 2
     space_dance_event00 0
     rest 24
