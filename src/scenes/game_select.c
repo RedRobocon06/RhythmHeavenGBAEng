@@ -261,18 +261,17 @@ const char *get_campaign_gift_title(s32 id, s32 shortenSongTitle) {
 void start_campaign_notice(s32 id) {
     struct CampaignNotice *notice = &gGameSelect->campaignNotice;
     u32 isSpecialSong = FALSE;
-    u32 isStandardSong = FALSE;
+    u32 isSong = FALSE;
     u32 giftType = campaign_gifts_table[id].type;
     u32 giftID = campaign_gifts_table[id].id;
     struct LevelData *level;
     char *string;
 
     if (giftType == CAMPAIGN_GIFT_SONG) {
-        isStandardSong = TRUE;
+        isSong = TRUE;
         switch (giftID) {
-            case STUDIO_SONG_HONEY_SWEET_ANGEL:
             case STUDIO_SONG_WISH:
-                isStandardSong = FALSE;
+            case STUDIO_SONG_HONEY_SWEET_ANGEL:
                 isSpecialSong = TRUE;
                 break;
         }
@@ -285,18 +284,19 @@ void start_campaign_notice(s32 id) {
     memcpy(string, "If you get a Perfect in\n", 45); // [Right now]
     strcat(string, level->name); // "<game_name>"
     strcat(string, " right\n"); // Get a perfect on this
-    if (giftType == CAMPAIGN_GIFT_DRUM_KIT || giftType == CAMPAIGN_GIFT_READING_MATERIAL) {
+	if (giftType == CAMPAIGN_GIFT_DRUM_KIT || giftType == CAMPAIGN_GIFT_READING_MATERIAL) {
         strcat(string, "now, you'll earn the bonus:\n"); // received as a present!!
     }
-	if (!isSpecialSong) {
-        strcat(string, "now, you'll earn the song:\n"); // game, and you'll receive
+    if (isSong) {
+        if(isSpecialSong) {
+            strcat(string, "now, you'll earn the song:\n");
+        } else {
+            strcat(string, "now, you'll earn the song:\n");
+    }
     }
     strcat(string, ""); // "
     strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
     strcat(string, "");
-    if (isStandardSong) {
-        strcat(string, ""); // 's song
-    }
     text_printer_set_string(notice->printer, string);
 
     sprite_set_visible(gSpriteHandler, gGameSelect->selectionBorderSprite, FALSE);
