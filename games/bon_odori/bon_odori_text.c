@@ -31,11 +31,11 @@ const char text_bon_odori_dondo_pan_pan[] = ".1:0" "Ｄｏｎｄｏ　" ".2:0" "ｐａ－
 
 const char text_bon_odori_haa[] = ".0:0" "Ｈａａ～　Ａｈ～";
 
-const char text_bon_odori_kansei_agaru[] = ".0:0" "Ｌｅｔ’ｓ　ｓｅｎｄ　ｏｕｒ　ｃｈｅｅｒｓ　ｔｏ　ｔｈｅ　ｓｋｙ～";
+const char text_bon_odori_kansei_agaru[] = ".0:0" "Ｗｅ’ｌｌ　ｓｅｎｄ　ｏｕｒ　ｃｈｅｅｒｓ　ｕｐ　ｈｉｇｈ～";
 
 const char text_bon_odori_ninki_agare_ba[] = ".0:0" "Ｉｆ　ｗｅ　ｐｅｒｆｏｒｍ　ｆｏｒ　ｍｏｒｅ　ｅｙｅｓ～";
 
-const char text_bon_odori_kyuryo_agaru[] = ".0:0" "Ｗｅ’ｌｌ　ｋｎｏｗ　ｏｕｒ　ｐｒｏｆｉｔｓ　ｗｉｌｌ　ｒｉｓｅ～";
+const char text_bon_odori_kyuryo_agaru[] = ".0:0" "Ｏｕｒ　ｐｒｏｆｉｔｓ　ｌｉｋｅｌｙ　ｗｉｌｌ　ｒｉｓｅ～";
 
 const char text_bon_odori_matsuri_da_wasshoi[] = ".0:0" "Ｔｉｍｅ　ｆｏｒ　ｃｅｌｅｂｒａｔｉｏｎ！";
 
@@ -55,7 +55,7 @@ const char text_bon_odori_don_pan_pan[] = ".1:0" "Ｄｏ－ｎ　" ".2:0" "ｐａ－ｎ　
 
 const char text_bon_odori_ame_ga_agare_ba[] = ".0:0" "Ｏｈ　ｗｈｅｎ　ｔｈｅ　ｒａｉｎ　ｃｌｅａｒｓ　ａｗａｙ～";
 
-const char text_bon_odori_yagura_ni_agaru[] = ".0:0" "Ｗａｌｋ　ｕｐ　ｔｈｅ　ｐｌａｔｆｏｒｍ　ａｎｄ　ｐｌａｙ～";
+const char text_bon_odori_yagura_ni_agaru[] = ".0:0" "Ｗａｌｋ　ｕｐ　ｔｈｅ　ｔｏｗｅｒ　ａｎｄ　ｐｌａｙ～";
 
 const char text_bon_odori_hora_matsuri_da_wasshoi[] = ".0:0" "Ｈｅｙ！　Ｔｉｍｅ　ｆｏｒ　ｃｅｌｅｂｒａｔｉｏｎ！";
 

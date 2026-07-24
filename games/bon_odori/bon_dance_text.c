@@ -31,7 +31,7 @@ const char text_bon_dance_dondo_pan_pan[] = ".1:0" "Ｄｏｎｄｏ　" ".2:0" "ｐａ－
 
 const char text_bon_dance_haa[] = ".0:0" "Ｈａａ～　Ａｈ～";
 
-const char text_bon_dance_kansei_agaru[] = ".0:0" "Ｌｅｔ’ｓ　ｓｅｎｄ　ｏｕｒ　ｃｈｅｅｒｓ　ｔｏ　ｔｈｅ　ｓｋｙ～";
+const char text_bon_dance_kansei_agaru[] = ".0:0" "Ｗｅ’ｌｌ　ｓｅｎｄ　ｏｕｒ　ｃｈｅｅｒｓ　ｕｐ　ｈｉｇｈ～";
 
 const char text_bon_dance_pan_pan_dondo_don[] = ".2:0" "Ｐａ－ｎ　ｐａ－ｎ　" ".1:0" "ｄｏｎｄｏ　ｄｏ－ｎ";
 
@@ -61,7 +61,7 @@ const char text_bon_dance_pan_panpa_pa[] = ".2:0" "Ｐａ－ｎ　ｐａｎｐａ　ｐａｎ"
 
 const char text_bon_dance_ame_ga_agare_ba[] = ".0:0" "Ｏｈ　ｗｈｅｎ　ｔｈｅ　ｒａｉｎ　ｃｌｅａｒｓ　ａｗａｙ～";
 
-const char text_bon_dance_yagura_ni_agaru[] = ".0:0" "Ｗａｌｋ　ｕｐ　ｔｈｅ　ｐｌａｔｆｏｒｍ　ａｎｄ　ｐｌａｙ～";
+const char text_bon_dance_yagura_ni_agaru[] = ".0:0" "Ｗａｌｋ　ｕｐ　ｔｈｅ　ｔｏｗｅｒ　ａｎｄ　ｐｌａｙ～";
 
 const char text_bon_dance_hora_matsuri_da_wasshoi[] = ".0:0" "Ｈｅｙ！　Ｔｉｍｅ　ｆｏｒ　ｃｅｌｅｂｒａｔｉｏｎ！";
 
