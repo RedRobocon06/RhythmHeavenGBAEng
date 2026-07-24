@@ -63,7 +63,7 @@ const char text_bon_dance_ame_ga_agare_ba[] = ".0:0" "Ｏｈ　ｗｈｅｎ　ｔｈｅ　ｒ
 
 const char text_bon_dance_yagura_ni_agaru[] = ".0:0" "Ｗａｌｋ　ｕｐ　ｔｈｅ　ｐｌａｔｆｏｒｍ　ａｎｄ　ｐｌａｙ～";
 
-const char text_bon_dance_hora_matsuri_da_wasshoi[] = ".0:0" "Ｃｏｍｅ　ｏｎ！　Ｌｅｔ’ｓ　ａｌｌ　ｃｈｅｅｒ　ｆｏｒ　Ｏｂａｎ！";
+const char text_bon_dance_hora_matsuri_da_wasshoi[] = ".0:0" "Ｃｏｍｅ　ｏｎ！　Ｔｉｍｅ　ｆｏｒ　ｃｅｌｅｂｒａｔｉｏｎ！";
 
 const char text_bon_dance_korezo[] = ".0:0" "Ｔｈｅ　ｏｎｅ　ａｎｄ　ｏｎｌｙ，";
 

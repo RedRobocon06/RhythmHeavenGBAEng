@@ -342,7 +342,7 @@ struct ReadingMaterial reading_material_table[] = {
             "Haa~ Ah~\n"
             "            Walk up the platform and play~\n"
             "\n"
-            "Come on! Let's all cheer for Obon!\n"
+            "Come on! Time for celebration!\n"
             "The one and only, that's made in JaPAN\n"
             "\n"
             "So let's all turn around and Dondo pan pan\n"
